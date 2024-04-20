@@ -1,5 +1,9 @@
 import { createRootRoute, Outlet } from "@tanstack/react-router";
 import React from "react";
+import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
+import { ReactQueryDevtools } from "@tanstack/react-query-devtools";
+// Create a client
+const queryClient = new QueryClient();
 const TanStackRouterDevtools =
   import.meta.env.MODE === "production"
     ? () => null // Render nothing in production
@@ -14,8 +18,11 @@ const TanStackRouterDevtools =
 export const Route = createRootRoute({
   component: () => (
     <>
-      <Outlet />
-      <TanStackRouterDevtools />
+      <QueryClientProvider client={queryClient}>
+        <Outlet />
+        <TanStackRouterDevtools />
+        <ReactQueryDevtools initialIsOpen={false} />
+      </QueryClientProvider>
     </>
   ),
 });
