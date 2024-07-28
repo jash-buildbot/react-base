@@ -1,0 +1,796 @@
+{
+  "result": {
+    "profile": {
+      "heading": "Software Engineer",
+      "firstName": "SHIVANJALI",
+      "lastName": "CHAURASIA",
+      "email": "shivanjali012@gmail.com",
+      "phone": "+91 79868 00477",
+      "website": "linkedin.com/in/theshivanjali",
+      "photo": "",
+      "headline": "Result-oriented Software Engineer with over 4 years of experience specializing in server-side programming and database management. Proficient in languages such as Python and Node.js. Expertise in API development, data modeling, and optimizing application performance. Detail-oriented and dedicated to writing clean and efficient code to support robust backend systems.",
+      "address": {
+        "line1": "Gurgaon",
+        "line2": "Haryana",
+        "line3": "India"
+      }
+    },
+    "objective": {
+      "enable": true,
+      "heading": "Professional Objective",
+      "body": "Result-oriented Software Engineer with over 4 years of experience specializing in server-side programming and database management. Proficient in languages such as Python and Node.js. Expertise in API development, data modeling, and optimizing application performance. Detail-oriented and dedicated to writing clean and efficient code to support robust backend systems."
+    },
+    "video": {
+      "heading": "Video",
+      "enable": false,
+      "url": ""
+    },
+    "work": {
+      "heading": "Work Experience",
+      "enable": true,
+      "items": [
+        {
+          "enable": true,
+          "id": "1",
+          "company": "Thoughts2Binary Consulting & Solutions",
+          "position": "LEAD SOFTWARE ENGINEER",
+          "startDate": "2019-07-01T00:00:00Z",
+          "endDate": "2023-09-01T00:00:00Z",
+          "description": "Joined the company as an Associate Software Developer and quickly progressed through the ranks to become a Lead Software Engineer, showcasing dedication, continuous learning, and exceptional performance. Achieved the prestigious title of Binary, signifying trustworthiness and inclusion in upper management decision-making processes. Successfully developed and optimized codebases for impactful 5 projects, including an e-commerce store application that drove revenue growth and a comprehensive school bus management system with real-time tracking, enhancing efficiency and safety. Mastered new technologies within short timeframes, enabling successful project leadership and contributing to the growth and diversification of the company's technical capabilities. Interacted independently with clients from Australia and the US, ensuring successful project delivery and maintaining strong client relationships, helping revenue growth. Successfully led a cross-functional team of 10 members in a challenging and fast-paced environment, demonstrating practical managerial skills. Oversaw project planning, task delegation, and coordination efforts to ensure the achievement of successful project outcomes despite the demanding circumstances."
+        }
+      ]
+    },
+    "education": {
+      "heading": "Education",
+      "enable": true,
+      "items": [
+        {
+          "enable": true,
+          "id": "1",
+          "institution": "Malout Institute of Management and Information Technology",
+          "degree": "Bachelor in Technology",
+          "fieldOfStudy": "Computer Science and Engineering",
+          "graduationDate": "2019-01-01T00:00:00Z"
+        }
+      ]
+    },
+    "awards": {
+      "heading": "Awards",
+      "enable": false,
+      "items": []
+    },
+    "certifications": {
+      "heading": "Certifications",
+      "enable": true,
+      "items": [
+        {
+          "enable": true,
+          "id": "1",
+          "name": "Python for Everybody Specialization",
+          "authority": "Coursera",
+          "date": "2023-09-01T00:00:00Z"
+        },
+        {
+          "enable": true,
+          "id": "2",
+          "name": "Web Application Technologies and Django",
+          "authority": "Coursera",
+          "date": "2023-09-01T00:00:00Z"
+        },
+        {
+          "enable": true,
+          "id": "3",
+          "name": "Building Web Applications in Django",
+          "authority": "Coursera",
+          "date": "2023-09-01T00:00:00Z"
+        },
+        {
+          "enable": true,
+          "id": "4",
+          "name": "Advanced Styling with Responsive Design",
+          "authority": "Coursera",
+          "date": "2023-09-01T00:00:00Z"
+        }
+      ]
+    },
+    "skills": {
+      "heading": "Skills",
+      "enable": true,
+      "items": [
+        {
+          "enable": true,
+          "id": "1",
+          "name": "Python",
+          "level": 0
+        },
+        {
+          "enable": true,
+          "id": "2",
+          "name": "JavaScript",
+          "level": 0
+        },
+        {
+          "enable": true,
+          "id": "3",
+          "name": "PHP",
+          "level": 0
+        },
+        {
+          "enable": true,
+          "id": "4",
+          "name": "HTML",
+          "level": 0
+        },
+        {
+          "enable": true,
+          "id": "5",
+          "name": "CSS",
+          "level": 0
+        },
+        {
+          "enable": true,
+          "id": "6",
+          "name": "React",
+          "level": 0
+        },
+        {
+          "enable": true,
+          "id": "7",
+          "name": "jQuery",
+          "level": 0
+        },
+        {
+          "enable": true,
+          "id": "8",
+          "name": "Ajax",
+          "level": 0
+        },
+        {
+          "enable": true,
+          "id": "9",
+          "name": "WordPress",
+          "level": 0
+        },
+        {
+          "enable": true,
+          "id": "10",
+          "name": "Django",
+          "level": 0
+        },
+        {
+          "enable": true,
+          "id": "11",
+          "name": "MySQL",
+          "level": 0
+        },
+        {
+          "enable": true,
+          "id": "12",
+          "name": "MongoDB",
+          "level": 0
+        },
+        {
+          "enable": true,
+          "id": "13",
+          "name": "AWS SQS",
+          "level": 0
+        },
+        {
+          "enable": true,
+          "id": "14",
+          "name": "AWS SNS",
+          "level": 0
+        },
+        {
+          "enable": true,
+          "id": "15",
+          "name": "AWS Lambda",
+          "level": 0
+        },
+        {
+          "enable": true,
+          "id": "16",
+          "name": "API Gateway",
+          "level": 0
+        },
+        {
+          "enable": true,
+          "id": "17",
+          "name": "Amazon S3",
+          "level": 0
+        },
+        {
+          "enable": true,
+          "id": "18",
+          "name": "AWS ElastiCache",
+          "level": 0
+        },
+        {
+          "enable": true,
+          "id": "19",
+          "name": "AWS OpenSearch",
+          "level": 0
+        }
+      ]
+    },
+    "hobbies": {
+      "heading": "Hobbies",
+      "enable": false,
+      "items": []
+    },
+    "languages": {
+      "heading": "Languages",
+      "enable": false,
+      "items": []
+    },
+    "references": {
+      "heading": "References",
+      "enable": false,
+      "items": []
+    },
+    "extras": {
+      "heading": "Extras",
+      "enable": false,
+      "items": []
+    }
+  },
+  "schema": {
+    "type": "object",
+    "properties": {
+      "profile": {
+        "type": "object",
+        "properties": {
+          "heading": {
+            "type": "string"
+          },
+          "firstName": {
+            "type": "string"
+          },
+          "lastName": {
+            "type": "string"
+          },
+          "email": {
+            "type": "string",
+            "format": "email"
+          },
+          "phone": {
+            "type": "string"
+          },
+          "website": {
+            "$ref": "#/definitions/optionalURI"
+          },
+          "photo": {
+            "$ref": "#/definitions/optionalURI"
+          },
+          "headline": {
+            "type": "string"
+          },
+          "address": {
+            "type": "object",
+            "properties": {
+              "line1": {
+                "type": "string"
+              },
+              "line2": {
+                "type": "string"
+              },
+              "line3": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "line1",
+              "line2",
+              "line3"
+            ]
+          }
+        },
+        "required": [
+          "heading",
+          "firstName",
+          "lastName",
+          "email",
+          "phone",
+          "website",
+          "photo",
+          "headline",
+          "address"
+        ]
+      },
+      "objective": {
+        "type": "object",
+        "properties": {
+          "enable": {
+            "type": "boolean",
+            "default": true
+          },
+          "heading": {
+            "type": "string",
+            "default": "Professional Objective"
+          },
+          "body": {
+            "description": "The body of the objective section in *markdown*. Intelligently identify and extract this information from the text, adapting to various variations like 'Objective,' 'Summary,' 'Career Goals,' or others, ensuring no relevant information is left behind.",
+            "type": "string"
+          }
+        },
+        "required": [
+          "enable",
+          "heading",
+          "body"
+        ]
+      },
+      "video": {
+        "type": "object",
+        "properties": {
+          "heading": {
+            "type": "string"
+          },
+          "enable": {
+            "type": "boolean"
+          },
+          "url": {
+            "$ref": "#/definitions/optionalURI"
+          }
+        },
+        "required": [
+          "heading",
+          "enable",
+          "url"
+        ]
+      },
+      "work": {
+        "type": "object",
+        "properties": {
+          "heading": {
+            "type": "string"
+          },
+          "enable": {
+            "type": "boolean"
+          },
+          "items": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "enable": {
+                  "type": "boolean"
+                },
+                "id": {
+                  "type": "string"
+                },
+                "company": {
+                  "type": "string"
+                },
+                "position": {
+                  "type": "string"
+                },
+                "startDate": {
+                  "$ref": "#/definitions/optionalDate"
+                },
+                "endDate": {
+                  "$ref": "#/definitions/optionalDate"
+                },
+                "description": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "enable",
+                "id",
+                "company",
+                "position",
+                "startDate",
+                "endDate",
+                "description"
+              ]
+            }
+          }
+        },
+        "required": [
+          "heading",
+          "enable",
+          "items"
+        ]
+      },
+      "education": {
+        "type": "object",
+        "properties": {
+          "heading": {
+            "type": "string"
+          },
+          "enable": {
+            "type": "boolean"
+          },
+          "items": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "enable": {
+                  "type": "boolean"
+                },
+                "id": {
+                  "type": "string"
+                },
+                "institution": {
+                  "type": "string"
+                },
+                "degree": {
+                  "type": "string"
+                },
+                "fieldOfStudy": {
+                  "type": "string"
+                },
+                "graduationDate": {
+                  "$ref": "#/definitions/optionalDate"
+                }
+              },
+              "required": [
+                "enable",
+                "id",
+                "institution",
+                "degree",
+                "fieldOfStudy",
+                "graduationDate"
+              ]
+            }
+          }
+        },
+        "required": [
+          "heading",
+          "enable",
+          "items"
+        ]
+      },
+      "awards": {
+        "type": "object",
+        "properties": {
+          "heading": {
+            "type": "string"
+          },
+          "enable": {
+            "type": "boolean"
+          },
+          "items": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "enable": {
+                  "type": "boolean"
+                },
+                "id": {
+                  "type": "string"
+                },
+                "title": {
+                  "type": "string"
+                },
+                "date": {
+                  "$ref": "#/definitions/optionalDate"
+                },
+                "description": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "enable",
+                "id",
+                "title",
+                "date",
+                "description"
+              ]
+            }
+          }
+        },
+        "required": [
+          "heading",
+          "enable",
+          "items"
+        ]
+      },
+      "certifications": {
+        "type": "object",
+        "properties": {
+          "heading": {
+            "type": "string"
+          },
+          "enable": {
+            "type": "boolean"
+          },
+          "items": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "enable": {
+                  "type": "boolean"
+                },
+                "id": {
+                  "type": "string"
+                },
+                "name": {
+                  "type": "string"
+                },
+                "authority": {
+                  "type": "string"
+                },
+                "date": {
+                  "$ref": "#/definitions/optionalDate"
+                }
+              },
+              "required": [
+                "enable",
+                "id",
+                "name",
+                "authority",
+                "date"
+              ]
+            }
+          }
+        },
+        "required": [
+          "heading",
+          "enable",
+          "items"
+        ]
+      },
+      "skills": {
+        "type": "object",
+        "properties": {
+          "heading": {
+            "type": "string"
+          },
+          "enable": {
+            "type": "boolean"
+          },
+          "items": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "enable": {
+                  "type": "boolean"
+                },
+                "id": {
+                  "type": "string"
+                },
+                "name": {
+                  "type": "string"
+                },
+                "level": {
+                  "type": "number"
+                }
+              },
+              "required": [
+                "enable",
+                "id",
+                "name",
+                "level"
+              ]
+            }
+          }
+        },
+        "required": [
+          "heading",
+          "enable",
+          "items"
+        ]
+      },
+      "hobbies": {
+        "type": "object",
+        "properties": {
+          "heading": {
+            "type": "string"
+          },
+          "enable": {
+            "type": "boolean"
+          },
+          "items": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "enable": {
+                  "type": "boolean"
+                },
+                "id": {
+                  "type": "string"
+                },
+                "name": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "enable",
+                "id",
+                "name"
+              ]
+            }
+          }
+        },
+        "required": [
+          "heading",
+          "enable",
+          "items"
+        ]
+      },
+      "languages": {
+        "type": "object",
+        "properties": {
+          "heading": {
+            "type": "string"
+          },
+          "enable": {
+            "type": "boolean"
+          },
+          "items": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "enable": {
+                  "type": "boolean"
+                },
+                "id": {
+                  "type": "string"
+                },
+                "language": {
+                  "type": "string"
+                },
+                "proficiency": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "enable",
+                "id",
+                "language",
+                "proficiency"
+              ]
+            }
+          }
+        },
+        "required": [
+          "heading",
+          "enable",
+          "items"
+        ]
+      },
+      "references": {
+        "type": "object",
+        "properties": {
+          "heading": {
+            "type": "string"
+          },
+          "enable": {
+            "type": "boolean"
+          },
+          "items": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "enable": {
+                  "type": "boolean"
+                },
+                "id": {
+                  "type": "string"
+                },
+                "name": {
+                  "type": "string"
+                },
+                "relationship": {
+                  "type": "string"
+                },
+                "contact": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "enable",
+                "id",
+                "name",
+                "relationship",
+                "contact"
+              ]
+            }
+          }
+        },
+        "required": [
+          "heading",
+          "enable",
+          "items"
+        ]
+      },
+      "extras": {
+        "type": "object",
+        "properties": {
+          "heading": {
+            "type": "string"
+          },
+          "enable": {
+            "type": "boolean"
+          },
+          "items": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "enable": {
+                  "type": "boolean"
+                },
+                "id": {
+                  "type": "string"
+                },
+                "title": {
+                  "type": "string"
+                },
+                "description": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "enable",
+                "id",
+                "title",
+                "description"
+              ]
+            }
+          }
+        },
+        "required": [
+          "heading",
+          "enable",
+          "items"
+        ]
+      }
+    },
+    "required": [
+      "profile",
+      "objective",
+      "video",
+      "work",
+      "education",
+      "awards",
+      "certifications",
+      "skills",
+      "hobbies",
+      "languages",
+      "references",
+      "extras"
+    ],
+    "definitions": {
+      "optionalURI": {
+        "anyOf": [
+          {
+            "type": "string",
+            "format": "uri"
+          },
+          {
+            "type": "string",
+            "pattern": "^$"
+          },
+          {
+            "type": "string"
+          }
+        ]
+      },
+      "optionalDate": {
+        "anyOf": [
+          {
+            "type": "string",
+            "format": "date-time",
+            "description": "Date in ISO 8601 format.",
+            "examples": [
+              "2024-01-30T09:30:10Z"
+            ]
+          },
+          {
+            "type": "string",
+            "pattern": "^$"
+          }
+        ]
+      }
+    }
+  }
+}

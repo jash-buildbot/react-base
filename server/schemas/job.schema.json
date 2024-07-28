@@ -1,0 +1,204 @@
+{
+  "name": "EnhancedJobParser",
+  "description": "Extracts comprehensive fields from job postings, designed to capture detailed information including salary breakdowns, employment types, and more.",
+  "parameters": {
+    "type": "object",
+    "properties": {
+      "title": {
+        "type": "string",
+        "description": "The title of the job."
+      },
+      "markdown_body": {
+        "type": "string",
+        "description": "The full job description in [[markdown]] format.",
+        "examples": ["- Develop cutting-edge software solutions. - Responsibilities include coding, testing, and deploying applications."]
+      },
+      "location": {
+        "type": "string",
+        "description": "The geographical location of the job, including city and country."
+      },
+      "salary": {
+        "type": "object",
+        "properties": {
+          "min": {
+            "type": "number",
+            "description": "The minimum salary offered for the job."
+          },
+          "max": {
+            "type": "number",
+            "description": "The maximum salary offered for the job."
+          },
+          "currency": {
+            "type": "string",
+            "description": "The currency of the salary (e.g., USD, EUR)."
+          },
+          "frequency": {
+            "type": "string",
+            "description": "The frequency of salary payment (e.g., hourly, monthly, annually)."
+          }
+        },
+        "description": "The detailed salary information for the job."
+      },
+      "type": {
+        "type": "string",
+        "description": "The type of employment (e.g., full-time, part-time, contract, temporary)."
+      },
+      "experienceLevel": {
+        "type": "object",
+        "properties": {
+          "minYears": {
+            "type": "number",
+            "description": "The minimum years of experience required for the job."
+          },
+          "maxYears": {
+            "type": "number",
+            "description": "The maximum years of experience required for the job."
+          },
+          "level": {
+            "type": "string",
+            "description": "The experience level (e.g., entry-level, mid-level, senior, director)."
+          }
+        },
+        "description": "The experience level required for the job."
+      },
+      "qualifications": {
+        "type": "string",
+        "description": "List of all qualifications, Certifications required or preferred, extracted using contextual clues in [[markdown]] format.",
+        "examples": ["- Bachelor's degree in Computer Science - 5+ years in large scale big data engineering experience"]
+      },
+      "skills": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        },
+        "description": "List of professional and technical skills required for the job."
+      },
+      "postedDate": {
+        "$ref": "#/definitions/optionalDate",
+        "description": "The date when the job was posted."
+      },
+      "applicationDeadline": {
+        "$ref": "#/definitions/optionalDate",
+        "description": "The application deadline for the job if present or ''."
+      },
+      "company": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string",
+            "description": "The name of the company offering the job."
+          },
+          "industry": {
+            "type": "string",
+            "description": "The industry sector the company operates in."
+          },
+          "size": {
+            "type": "string",
+            "description": "The size of the company (e.g., 1-10 employees, 11-50 employees)."
+          },
+          "description": {
+            "type": "string",
+            "description": "A brief overview of the company."
+          },
+          "logoUrl": {
+            "$ref": "#/definitions/optionalURI",
+            "description": "The URL of the company's logo image."
+          }
+        },
+        "description": "Detailed information about the company offering the job."
+      },
+      "applicationLink": {
+        "$ref": "#/definitions/optionalURI",
+        "description": "A direct link to the job application or company's career page."
+      },
+      "tags": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        },
+        "description": "Keywords or tags associated with the job for searching and filtering purposes."
+      },
+      "benefits": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        },
+        "description": "List of benefits offered with the job (e.g., health insurance, paid time off)."
+      },
+      "workEnvironment": {
+        "type": "string",
+        "description": "Description of the work environment (e.g., remote, in-office, hybrid)."
+      }
+    },
+    "required": [
+      "title",
+      "markdown_body",
+      "location",
+      "salary",
+      "type",
+      "experienceLevel",
+      "qualifications",
+      "skills",
+      "postedDate",
+      "applicationDeadline",
+      "company",
+      "applicationLink",
+      "tags",
+      "benefits",
+      "workEnvironment"
+  ],
+    "examples": [
+      {
+        "title": "Software Engineer",
+        "markdown_body": "- Develop cutting-edge software solutions. - Responsibilities include coding, testing, and deploying applications.",
+        "location": "San Francisco, CA, USA",
+        "salary": {
+          "min": 100000,
+          "max": 150000,
+          "currency": "USD",
+          "frequency": "annually"
+        },
+        "type": "Full-time",
+        "experienceLevel": {
+          "minYears": 2,
+          "maxYears": 5,
+          "level": "Mid-level"
+        },
+        "qualifications": "- Bachelor's degree in Computer Science - 5+ years in large scale big data engineering experience",
+        "skills": ["Python", "Django", "RESTful APIs", "Agile methodologies"],
+        "postedDate": "2024-01-01T00:00:00Z",
+        "applicationDeadline": "2024-02-15T00:00:00Z",
+        "company": {
+          "name": "Tech Innovations Inc.",
+          "industry": "Software Development",
+          "size": "500-1000 employees",
+          "description": "A leading provider of innovative software solutions.",
+          "logoUrl": "https://example.com/logo.png"
+        },
+        "applicationLink": "https://example.com/apply",
+        "tags": ["software engineering", "python", "full-time"],
+        "benefits": ["Health insurance", "Paid time off", "Remote work options"],
+        "workEnvironment": "Hybrid"
+      }
+    ],
+    "definitions": {
+      "optionalURI": {
+        "anyOf": [
+          { "type": "string", "format": "uri" },
+          { "type": "string", "pattern": "^$" }
+        ]
+      },
+      "optionalDate": {
+        "anyOf": [
+          {
+            "type": "string",
+            "format": "date-time",
+            "description": "Date in ISO 8601 format.",
+            "examples": ["2024-01-30T09:30:10Z"]
+          },
+          { "type": "string", "pattern": "^$" }
+        ]
+      }
+    }
+  }
+}

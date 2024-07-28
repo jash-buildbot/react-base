@@ -2,6 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Override novel-lightweight button styles for shadcn buttons */
+
+
+button.bg-primary, [type=button].bg-primary , [type=reset].bg-primary , [type=submit].bg-primary 
+{
+  background-color: hsl(var(--primary));
+}
 @layer base {
   :root {
     --background: 0 0% 100%;
